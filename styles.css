@@ -3,12 +3,23 @@ body{
     flex-direction: column;
     align-items: center;
     background-color: black;
+    gap: 30px;
 }
+
+button {
+    font-size: 18px;
+    background-color: yellow;
+    border-radius: 8px;
+    border: 2px solid black;
+    padding: 6px;
+}
+
 #heading{
     text-decoration: underline;
     font-size: 32px;
     font-family: Arial, Helvetica, sans-serif;
     color: yellow;
+    margin: 0;
 }
 #container{
     display: flex;
